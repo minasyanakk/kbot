@@ -1,0 +1,1 @@
+go build -ldflags "-X="github.com/minasyanakk/kbot/cmd.versionApp=V1.0.0
