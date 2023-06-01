@@ -2,6 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+<<<<<<< HEAD
 replicaCount: 1
 image:
   repository: minasyanakk
@@ -12,3 +13,21 @@ image:
 secret:
   name: name
   tokenkey: key
+=======
+image:
+  repository: "den-vasyliev/kbot"
+  tag: "v1.0.0-106879e"
+  os: linux
+  arch: amd64
+  registry: "ghcr.io"
+  TELE_TOKEN: TELE_TOKEN
+replicaCount: 1
+service:
+  port: 80
+secret:
+  name: kbot
+  tokenKey: token
+  tokenName: TELE_TOKEN
+securityContext:
+  privileged: true
+>>>>>>> develop
