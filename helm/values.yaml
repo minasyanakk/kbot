@@ -9,8 +9,9 @@ Image:
   tag: "v1.0.0-106879e"
   os: linux
   arch: amd64
-
 secret:
   name: "kbot"
   env: "TELE_TOKEN"
   key: "token"
+image:
+  tag: 1.0.0-cc15608
